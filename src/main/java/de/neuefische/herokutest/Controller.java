@@ -12,7 +12,7 @@ public class Controller {
 
     @GetMapping("/{name}")
     public String greet(@PathVariable String name){
-        return "Hallo" + name;
+        return "Hallo " + name;
     }
 
 
